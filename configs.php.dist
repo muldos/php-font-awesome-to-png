@@ -4,7 +4,7 @@ $CONFIGS['variableScssFile'] = "_variables.scss";
 $CONFIGS['font'] = 'fontawesome-webfont.ttf';
 
 $CONFIGS['iconsDataFile'] = 'icons.data.php';
-$CONFIGS['outputDir'] = 'E:\my media\stock icon\fontawesome';
+$CONFIGS['outputDir'] = '/Users/drobin/dev/iOS/icons/';
 
 $CONFIGS['outputColors'] = array
 (
@@ -13,6 +13,6 @@ $CONFIGS['outputColors'] = array
 	'grey'=>array('r'=>128, 'g'=>128, 'b'=>128),
 	'black'=>array('r'=>0, 'g'=>0, 'b'=>0),
 );
-$CONFIGS['outputSizes'] = array('32', '24', '16');
+$CONFIGS['outputSizes'] = array('75', '50', '25');
 // output to base64 uri format in html file ("base64.htm"), stored together with the generated icons
 $CONFIGS['outputBase64'] = true;
